@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .outerdiv {
+        border: 1px solid red;
+        padding: 10px;
+      }
+      .middlediv {
+        border: 1px solid green;
+        padding: 10px;
+      }
+      .innerdiv {
+        border: 1px solid black;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outerdiv" onclick="outerDiv()">
+      Outer div
+      <div class="middlediv" onclick="middleDiv()">
+        middle div
+        <div class="innerdiv" onclick="innerDiv()">inner div</div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
